@@ -1,643 +1,308 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <title>CodeClub</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/animate.min.css" rel="stylesheet"> 
-  <link href="css/font-awesome.min.css" rel="stylesheet">
-  <link href="css/lightbox.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
-  <link href="css/responsive.css" rel="stylesheet">
-
-  <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-  <![endif]-->
-  
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
-  <link rel="shortcut icon" href="images/icon.png">
-</head><!--/head-->
-
+	<meta name="generator" content="Hugo 0.62.2" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/home.css">
+    <link href="https://fonts.googleapis.com/css?family=Bangers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Zhi+Mang+Xing&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/base.css">
+</head>
 <body>
-
-  <!--.preloader-->
-  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
-  <!--/.preloader-->
-
-  <header id="home">
-    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
-      <div class="carousel-inner">
-        <div class="item active" style="background-image: url(images/slider/1.jpg)">
-          <div class="caption">
-            <h1 class="animated fadeInLeftBig"><span>< CodeClub ></span></h1>
-            <p class="animated fadeInRightBig">Department Society of Computer Science and Engineering, IIT Kharagpur</p>
-          </div>
-        </div>
-      </div>
-
-      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
-
-    </div><!--/#home-slider-->
-    <div class="main-nav">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">
-            <h1><img class="img-responsive" src="images/logo.png" alt="logo"></h1>
-          </a>                    
-        </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">                 
-            <li class="scroll active"><a href="#home">Home</a></li>
-            <li class="scroll"><a href="#about-us">About Us</a></li>                     
-            <!--<li class="scroll"><a href="#portfolio">Portfolio</a></li>-->
-            <li class="scroll"><a href="#team">Team</a></li>
-            <!--<li class="scroll"><a href="#blog">Blog</a></li>-->
-            <li class="scroll"><a href="#contact">Contact</a></li>       
-          </ul>
-        </div>
-      </div>
-    </div><!--/#main-nav-->
-  </header><!--/#home-->
-  <section id="about-us" class="parallax">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2>About us</h2>
-            <label> CodeClub is a bunch of motivated students striving to create a positive environment for all-things-computer-science in IIT Kharagpur. We are the official department society of the Computer Science and Engineering Department.</label>
-            <p></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!--/#about-us-->
-
-  <!--<section id="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <h2>Our Portfolio</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
-        </div>
-      </div> 
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/1.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/2.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/3.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/4.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/5.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/6.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/7.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
-            <div class="folio-image">
-              <img class="img-responsive" src="images/portfolio/8.jpg" alt="">
-            </div>
-            <div class="overlay">
-              <div class="overlay-content">
-                <div class="overlay-text">
-                  <div class="folio-info">
-                    <h3>Time Hours</h3>
-                    <p>Design, Photography</p>
-                  </div>
-                  <div class="folio-overview">
-                    <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                    <span class="folio-expand"><a href="images/portfolio/portfolio-details.jpg" data-lightbox="portfolio"><i class="fa fa-search-plus"></i></a></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div id="portfolio-single-wrap">
-      <div id="portfolio-single">
-      </div>
-    </div><!-- /#portfolio-single-wrap 
-  </section><!--/#portfolio-->
-
-  <section id="team">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-          <h2>The Team</h2>
-          <p></p>
-        </div>
-      </div>
-      <div class="team-members">
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/1.jpg" alt="">
-              </div>
-              <div class="member-info">
-                <h3>Soumyajit Dey</h3>
-                <h4>Faculty Advisor</h4>
-                <p>Assistant Professor</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/2.jpg" alt="">
-              </div>
-              <div class="member-info">
-                <h3>Aritra Hazra</h3>
-                <h4>Faculty Advisor</h4>
-                <p>Assistant Professor</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/3.jpg" alt="">
-              </div>
-              <div class="member-info">
-                <h3>Krishang Garodia</h3>
-                <h4>President</h4>
-                <p>Fourth Year UG Student</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
-              <div class="member-image">
-                <img class="img-responsive" src="images/team/4.jpg" alt="">
-              </div>
-              <div class="member-info">
-                <h3>Prabal Singh</h3>
-                <h4>President</h4>
-                <p>Fourth Year UG Student</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>            
-    </div>
-  </section><!--/#team-->
-
-  <!--<section id="features" class="parallax">
-    <div class="container">
-      <div class="row count">
-        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
-          <i class="fa fa-user"></i>
-          <h3 class="timer">4000</h3>
-          <p>Happy Clients</p>
-        </div>
-        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
-          <i class="fa fa-desktop"></i>
-          <h3 class="timer">200</h3>                    
-          <p>Modern Websites</p>
-        </div> 
-        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
-          <i class="fa fa-trophy"></i>
-          <h3 class="timer">10</h3>                    
-          <p>WINNING AWARDS</p>
-        </div> 
-        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
-          <i class="fa fa-comment-o"></i>                    
-          <h3>24/7</h3>
-          <p>Fast Support</p>
-        </div>                 
-      </div>
-    </div>
-  </section><!--/#features-->
-
-  <!--<section id="pricing">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-          <h2>Pricing Table</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
-        </div>
-      </div>
-      <div class="pricing-table">
-        <div class="row">
-          <div class="col-sm-3">
-            <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
-              <h3>Basic</h3>
-              <div class="price">
-                $9<span>/Month</span>                          
-              </div>
-              <ul>
-                <li>Free Setup</li>
-                <li>10GB Storage</li>
-                <li>100GB Bandwith</li>
-                <li>5 Products</li>
-              </ul>
-              <a href="#" class="btn btn-lg btn-primary">Sign up</a>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
-              <h3>Standard</h3>
-              <div class="price">
-                $19<span>/Month</span>                                
-              </div>
-              <ul>
-                <li>Free Setup</li>
-                <li>10GB Storage</li>
-                <li>100GB Bandwith</li>
-                <li>5 Products</li>
-              </ul>
-              <a href="#" class="btn btn-lg btn-primary">Sign up</a>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="single-table featured wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
-              <h3>Featured</h3>
-              <div class="price">
-                $29<span>/Month</span>                                
-              </div>
-              <ul>
-                <li>Free Setup</li>
-                <li>10GB Storage</li>
-                <li>100GB Bandwith</li>
-                <li>5 Products</li>
-              </ul>
-              <a href="#" class="btn btn-lg btn-primary">Sign up</a>
-            </div>
-          </div>
-          <div class="col-sm-3">
-            <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms">
-              <h3>Professional</h3>
-              <div class="price">
-                $49<span>/Month</span>                    
-              </div>
-              <ul>
-                <li>Free Setup</li>
-                <li>10GB Storage</li>
-                <li>100GB Bandwith</li>
-                <li>5 Products</li>
-              </ul>
-              <a href="#" class="btn btn-lg btn-primary">Sign up</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!--/#pricing-->
-
-  <!--<section id="twitter" class="parallax">
     <div>
-      <a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-      <a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-sm-offset-2">
-            <div class="twitter-icon text-center">
-              <i class="fa fa-twitter"></i>
-              <h4>Themeum</h4>
-            </div>
-            <div id="twitter-carousel" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
-                  <p>Introducing Shortcode generator for Helix V2 based templates <a href="#"><span>#helixframework #joomla</span> http://bit.ly/1qlgwav</a></p>
-                </div>
-                <div class="item">
-                  <p>Introducing Shortcode generator for Helix V2 based templates <a href="#"><span>#helixframework #joomla</span> http://bit.ly/1qlgwav</a></p>
-                </div>
-                <div class="item">                                
-                  <p>Introducing Shortcode generator for Helix V2 based templates <a href="#"><span>#helixframework #joomla</span> http://bit.ly/1qlgwav</a></p>
-                </div>
-              </div>                        
-            </div>                    
-          </div>
-        </div>
-      </div>
-    </div>
-  </section><!--/#twitter-->
 
-  <!--<section id="blog">
-    <div class="container">
-      <div class="row">
-        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
-          <h2>Blog Posts</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+        <nav class="navbar navbar-expand-lg navbar-default text-dark fixed-top">
+            <div class="container">
+            <a class="navbar-brand" href="#">Codeclub</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                    <a class="nav-link" href=".">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="team.html">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="alum.html">Alum</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-      <div class="blog-posts">
-        <div class="row">
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="400ms">
-            <div class="post-thumb">
-              <a href="#"><img class="img-responsive" src="images/blog/1.jpg" alt=""></a> 
-              <div class="post-meta">
-                <span><i class="fa fa-comments-o"></i> 3 Comments</span>
-                <span><i class="fa fa-heart"></i> 0 Likes</span> 
-              </div>
-              <div class="post-icon">
-                <i class="fa fa-pencil"></i>
-              </div>
-            </div>
-            <div class="entry-header">
-              <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
-              <span class="date">June 26, 2014</span>
-              <span class="cetagory">in <strong>Photography</strong></span>
-            </div>
-            <div class="entry-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
-            <div class="post-thumb">
-              <div id="post-carousel"  class="carousel slide" data-ride="carousel">
+        </nav>
+
+        <div class="cover">
+            <div id="carouselExampleCaptions" class="carousel slide w-100" data-ride="carousel">
                 <ol class="carousel-indicators">
-                  <li data-target="#post-carousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#post-carousel" data-slide-to="1"></li>
-                  <li data-target="#post-carousel" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
                 </ol>
                 <div class="carousel-inner">
-                  <div class="item active">
-                    <a href="#"><img class="img-responsive" src="images/blog/2.jpg" alt=""></a>
-                  </div>
-                  <div class="item">
-                    <a href="#"><img class="img-responsive" src="images/blog/1.jpg" alt=""></a>
-                  </div>
-                  <div class="item">
-                    <a href="#"><img class="img-responsive" src="images/blog/3.jpg" alt=""></a>
-                  </div>
-                </div>                               
-                <a class="blog-left-control" href="#post-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-                <a class="blog-right-control" href="#post-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
-              </div>                            
-              <div class="post-meta">
-                <span><i class="fa fa-comments-o"></i> 3 Comments</span>
-                <span><i class="fa fa-heart"></i> 0 Likes</span> 
-              </div>
-              <div class="post-icon">
-                <i class="fa fa-picture-o"></i>
-              </div>
-            </div>
-            <div class="entry-header">
-              <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
-              <span class="date">June 26, 2014</span>
-              <span class="cetagory">in <strong>Photography</strong></span>
-            </div>
-            <div class="entry-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            </div>
-          </div>
-          <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
-            <div class="post-thumb">
-              <a href="#"><img class="img-responsive" src="images/blog/3.jpg" alt=""></a>
-              <div class="post-meta">
-                <span><i class="fa fa-comments-o"></i> 3 Comments</span>
-                <span><i class="fa fa-heart"></i> 0 Likes</span> 
-              </div>
-              <div class="post-icon">
-                <i class="fa fa-video-camera"></i>
-              </div>
-            </div>
-            <div class="entry-header">
-              <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
-              <span class="date">June 26, 2014</span>
-              <span class="cetagory">in <strong>Photography</strong></span>
-            </div>
-            <div class="entry-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            </div>
-          </div>                    
-        </div>
-        <div class="load-more wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
-          <a href="#" class="btn-loadmore"><i class="fa fa-repeat"></i> Load More</a>
-        </div>                
-      </div>
-    </div>
-  </section><!--/#blog-->
-
-  <section id="contact">
-    <div id="contact-us" class="parallax">
-      <div class="container">
-        <div class="row">
-          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-            <h2>Contact Us</h2>
-            <p>We are always glad to get in touch with people. Drop an email to us if you have anything in mind.</p>
-          </div>
-        </div>
-        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
-          <div class="row">
-            <div class="col-sm-6">
-              <form id="main-contact-form" name="contact-form" method="post" action="#">
-                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                <div class="carousel-item active">
+                    <img src="images/alumCover.jpg" class="d-block w-100 Alum-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide label</h5>
+                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </div>
-                  </div>
-                  <div class="col-sm-6">
-                    <div class="form-group">
-                      <input type="email" name="email" class="form-control" placeholder="Email Address" required="required">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/alumCover.jpg" class="d-block w-100 Alum-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </div>
-                  </div>
                 </div>
-                <div class="form-group">
-                  <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+                <div class="carousel-item">
+                    <img src="images/alumCover.jpg" class="d-block w-100 Alum-cover" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide label</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
                 </div>
-                <div class="form-group">
-                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>
-                </div>                        
-                <div class="form-group">
-                  <button type="submit" class="btn-submit">Send Now</button>
                 </div>
-              </form>   
+                <a class="carousel-control-prev " href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
             </div>
-            <div class="col-sm-6">
-              <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                <ul class="address">
-                  <li><i class="fa fa-map-marker"></i> <span> Address:</span>Department of Computer Science and Engineering, Indian Institute of Technology, Kharagpur</li>
-                  <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:someone@yoursite.com">codeclub.iitkgp@gmail.com</a></li>
-                  <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="https://code-club-kgp.github.io/">code-club-kgp.github.io</a></li>
-                </ul>
-              </div>                            
+            <div class="titleBlock">
+                <span class="Title">
+                </span>
             </div>
-          </div>
         </div>
-      </div>
-    </div>        
-  </section><!--/#contact-->
-  <footer id="footer">
-    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-      <div class="container text-center">
-        <div class="footer-logo">
-          <a href="index.html"><img class="img-responsive" src="images/logo.png" alt=""></a>
+    
+
+<!-- 
+        <div class="titlelayer">
+            <div class="titleblock text-dark">
+                <span class="Title typed-cursor "> </span>
+                <h3> Department of computer science student club </h3>
+                <p class=" "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, debitis quisquam nobis temporibus fugiat officia, dicta est facilis, ut dignissimos nam sequi. Obcaecati possimus ipsum laudantium voluptate vel eaque necessitatibus. </p>
+                
+            </div>
+        </div> -->
+<!-- About us -->
+        <div class="layer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="container">
+                            <h2>About us</h2>
+                            <br>
+                            <p class="p-4">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, dolorum voluptate cum ipsa dolore, id quam possimus praesentium consequuntur quis qui aliquam. Libero perspiciatis expedita totam, at dolores quisquam non!
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, dolorum voluptate cum ipsa dolore, id quam possimus praesentium consequuntur quis qui aliquam. Libero perspiciatis expedita totam, at dolores quisquam non!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- <div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Notice1: Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li class="list-group-item">Notice1: Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                                <li class="list-group-item">Notice1: Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+                            </ul>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <div class="social-icons">
-          <ul>
-            <li><a class="envelope" href="#"><i class="fa fa-envelope"></i></a></li>
-            <li><a class="facebook" href="https://www.facebook.com/CodeClub.IITKGP/"><i class="fa fa-facebook"></i></a></li>
-            </ul>
+
+
+        <div class="layer upcomingevents">
+            <div class="container">
+                <h2 class="border-bottom border-dark  pb-4">Events</h2>
+                <p>
+                    
+                </p>
+                <br><br>
+                <div class="card-deck">
+                    <div class="card event-cards">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                    <div class="card event-cards">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                    <div class="card event-cards extra-event">
+                    <div class="card-body">
+                        <div class="container d-flex h-100">
+                            <div class="w-100 text-center justify-content-center align-self-center">
+                             More&#x27B2;
+                            </div>
+                        </div>
+                        <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                    </div>
+                    </div>
+                </div>
+
+
+            </div>
+
         </div>
-      </div>
+
+        <div class="layer blog-layer">
+            <div class="container">
+                <h2 class="border-bottom border-dark  pb-4">Blog Posts</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, enim iusto odit sequi, in reiciendis deleniti quas ducimus eos eligendi voluptatem ex soluta dolor exercitationem necessitatibus tempora recusandae laudantium eveniet?
+                </p>
+                <br>
+                <div class="card-deck">
+                    <div class="card blog-cards">
+                    <img src="images/cover.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                    <div class="card blog-cards">
+                    <img src="images/cover.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                    <div class="card blog-cards">
+                    <img src="images/cover.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                    </div>
+                </div>
+                <div class="text-center more-blogs  mt-4 ">
+                    <a href="/blog.html" class="w-100 text-white p-2 blog-more"> More &#x27B2; </a>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="grow">
+            <div id="icon">&#128276;</div>
+            <span id="text">Contrary to popular belief, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo amet laudantium non voluptas modi hic quibusdam ad odio fugiat dolorem inventore possimus, iste obcaecati, iure corporis nulla illo fuga cum?</span>
+        </div>
+
+
+        <div class="layer bg-dark text-light">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col ">
+                        <center>
+                            <img src="./images/iitkgplogo.png" class="footer-logo" alt="">
+                        </center>
+                    </div>
+                    <div class="col">
+                        <h2>Contact us</h2>
+                        <!-- <hr class="border-light"> -->
+                        <div class="p-2">
+                            CSE Department <br> 
+                            IIT Kharagpur <br>
+                            email: abc@iitkgp.ac.in.com
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3>Quick links</h3>
+                        <!-- <hr class="border-light"> -->
+                        <div class="pt-2">
+                            <ul class="">
+                                <li>
+                                    <a class="footer-links" href="/team.html">Team </a> <br>
+                                </li>
+                                <li>
+                                    <a class="footer-links"  href="/team.html">Archive </a> <br>
+                                </li>
+                                <li>
+                                    <a class="footer-links"  href="/team.html">Alum </a> <br>
+                                </li>
+                                <li>
+                                    <a class="footer-links"  href="/team.html">Blogs </a> <br>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col text-right">
+                        <a href="https://www.facebook.com/CodeClub.IITKGP/">
+                            <img src="./images/facebook.svg" class="footer-social" alt="">
+                        </a>
+                        <a href="mailTo:abc@gmail.com">
+                            <img src="./images/gmail.svg" class="footer-social" alt="">
+                        </a>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<script
+			  src="https://code.jquery.com/jquery-3.4.1.min.js"
+			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+			  crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+<script>
+
+    var typed = new Typed('.Title', {
+    strings: [ '',
+    'Codeclub', 
+    'Department Society'
+    ],
+    typeSpeed: 50,
+    backSpeed: 50,
+    loop: true
+    });
+
+    var typed = new Typed('.Title', options);
+
+    url = "https://spreadsheets.google.com/feeds/list/19T_lxBdPzI9p8co-q-KcrAoybxvKsXYUbGAlPhBJrbc/od6/public/basic?alt=json";
+    console.log(url);
+    
+    $.getJSON(url,function(data){
+        console.log(data);
+        var entry = data.feed.entry;
+        $(entry).each(function(){
+            $('#data').prepend('<h2>'+this.content.$t+'<h2><br>');
+        });
+    });  
+
+</script>
+
+
+
+
     </div>
-  </footer>
-
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
-  <script type="text/javascript" src="js/wow.min.js"></script>
-  <script type="text/javascript" src="js/mousescroll.js"></script>
-  <script type="text/javascript" src="js/smoothscroll.js"></script>
-  <script type="text/javascript" src="js/jquery.countTo.js"></script>
-  <script type="text/javascript" src="js/lightbox.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
-
 </body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </html>
