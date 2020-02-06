@@ -1,0 +1,71 @@
+body{
+    background-image: url('/images/bg3.png');
+    background-size: fill;
+}
+
+.description{
+    font-family: 'Roboto Mono', monospace;
+    z-index: 99;
+}
+
+.Text_continer{
+    position: relative;
+
+}
+
+.Text_continer::after{
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 0;
+    height: 0;
+    border-left: 60em solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid firebrick;
+    z-index: 98;
+}
+
+.butn{
+    padding: 1em 2.5em 1em 2.5em;
+    display: inline-block;
+    margin-right: 1em;
+    transition-duration: 0.2s;
+    background-color: firebrick;
+    color: floralwhite;
+    border: solid 3px firebrick;
+}
+
+.butn-outline{
+    padding: 1em 2.5em 1em 2.5em;
+    display: inline-block;
+    margin-right: 1em;
+    transition-duration: 0.2s;
+    border: solid 3px firebrick;
+    color: firebrick;
+}
+
+.butn:hover{
+    background-color: floralwhite;
+    color: firebrick;
+    text-decoration: none;
+}
+
+.butn-outline:hover{
+    background-color: firebrick;
+    color: floralwhite;
+    text-decoration: none;
+}
+
+.titles{
+    color: firebrick;
+}
+
+.sub-titles{
+    font-weight: bold !important;
+}
+
+.proj-contacts{
+    padding: 1em;
+}
