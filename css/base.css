@@ -3,6 +3,7 @@
     z-index: 100;
     background-color: #fff;
     border-bottom: 8px solid #b22222 !important;
+    font-weight: bolder;
 }
 
 .nav-link, .navbar-brand{
