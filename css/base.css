@@ -2,6 +2,7 @@
 .navbar{
     z-index: 100;
     background-color: #fff;
+    border-bottom: solid 4px #b22222;
 }
 
 .nav-link, .navbar-brand{
